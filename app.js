@@ -47,12 +47,12 @@ listItem.style.textAlign = "center";
 
     access multiple elements using:
         - getElementsByClassName()
-        - getElementsByTafName()
+        - getElementsByTagName()
         -querySelectorAll()
 */
 let groceries = document.getElementsByClassName("groceryItem")
 console.log(groceries[0])
-groceries[0].innerText = "Mamdrake"
+groceries[0].innerText = "Mandrake"
 
 //Accessing all li tags in our index.html file
 let allLists = document.getElementsByTagName("li")
@@ -111,7 +111,7 @@ let newItem = document.createElement("li")
 let todoInput = document.querySelector("#listInput").value //! Gotta grab value of input
 
 //Grabbing the parent of the grocery list items
-let groceryList = document.querySelector("#groceryList")
+let groceryList = document.querySelector("#groceryList ")
 
 //Assigning value of input to the new grocery item
 newItem.innerText = todoInput;
