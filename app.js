@@ -110,11 +110,11 @@ let newItem = document.createElement("li")
 //Grabbing value from the input field
 let todoInput = document.querySelector("#listInput").value //! Gotta grab value of input
 
-//Grabbing the parent of the grocery list items
-let groceryList = document.querySelector("#groceryList ")
-
 //Assigning value of input to the new grocery item
 newItem.innerText = todoInput;
+
+//Grabbing the parent of the grocery list items
+let groceryList = document.querySelector("#groceryList ")
 
 //Appending the new item to the parent grocery list
 groceryList.appendChild(newItem);

@@ -81,6 +81,21 @@ Try to keep separation of elements by adding classes in CSS and then adding them
 - This toggles hidden class on and off
 
 ---
+## **Manipulating attributes**
+
+`document.querySelector("a").attributes`
+
+- Returns a list of attributes
+
+`document.querySelector("a").getAttribute("href")`
+
+- Gets the value of selected attribute
+
+`document.querySelector("a").setAttribute("href", "https://www.bing.com")`
+
+- Changes the selected attribute
+
+---
 
 ## **Creating Elements**
 
@@ -90,7 +105,7 @@ document.createElement("h1")
 
 ## **Event Listeners**
 
-Event listeners allows us to execute a function owhen a particular event occurs. We call it using `addEventListener`
+Event listeners allows us to execute a function when a particular event occurs. We call it using `addEventListener`
 
 - addEventListener takes an event and a callback function:
      - **Event** - What happens
